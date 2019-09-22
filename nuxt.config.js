@@ -1,5 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
 
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/profile/'
+  }
+} : {}
+
 export default {
   mode: 'universal',
   /*
@@ -34,7 +41,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  devModules: [
+  buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify'
