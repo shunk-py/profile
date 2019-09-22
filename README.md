@@ -19,4 +19,6 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).    
+
+[![CircleCI](https://circleci.com/gh/shunkimura-3700/profile/tree/master.svg?style=svg)](https://circleci.com/gh/shunkimura-3700/profile/tree/master)
