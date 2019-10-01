@@ -1,6 +1,6 @@
 # profile
 
-> my works
+> access here: https://shunkimura-3700.github.io/profile/
 
 ## Build Setup
 
